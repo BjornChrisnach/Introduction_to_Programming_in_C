@@ -9,7 +9,11 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "C:\\CodeNew\\C++\\Edx_Intro_to_programming_in_C++\\Projects\\skeleton\\Coins\\main.exe",
+            // this works for current file if you use a folder name equil to exe name
+            // set to working folder or open folder in terminal\\foldername equil to exe name without extension exe\\filename.exe
+            "program": "${workspaceFolder}\\${fileBasenameNoExtension}\\${fileBasenameNoExtension}.exe",
+            // "program": "C:\\CodeNew\\C++\\Edx_Intro_to_programming_in_C++\\Projects\\skeleton\\if_arithmetic\\if_arithmetic.exe",
+            // Python use "program": "${file}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
