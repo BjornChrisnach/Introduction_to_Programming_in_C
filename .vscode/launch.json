@@ -4,7 +4,6 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "name": "(gdb) Launch",
             "type": "cppdbg",
@@ -15,6 +14,7 @@
             // "program": "C:\\CodeNew\\C++\\Edx_Intro_to_programming_in_C++\\Projects\\skeleton\\if_arithmetic\\if_arithmetic.exe",
             // Python use "program": "${file}",
             "args": [],
+            //"args": ["1900"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
